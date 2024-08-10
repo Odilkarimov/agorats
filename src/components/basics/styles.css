@@ -67,6 +67,9 @@ body {
     padding-top: 100px;
   }
   .user-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 1rem;
     padding: 2.5rem;
     grid-gap: 1.25rem;
@@ -80,8 +83,8 @@ body {
     border-color: rgba(75, 85, 99, var(--un-border-opacity));
     border-width: 1px;
     box-sizing: border-box;
-    width: 288px;
-    height: 216px;
+    width: 500px;
+    height: 400px;
   }
   .user-name {
     --un-text-opacity: 1;
